@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    font-size: 40px;
+    margin: 40px;
+    color: white;
+}
+a:hover {
+    color: aquamarine;
+    Text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 10px 12px rgba(0,0,0,0.1);
+}
+.main {
+    position: relative;
+}
+.main .img-1 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 800px;
+    top: 250px;
+}
+.main .img-2 {
+    position: absolute;
+    height: 550px;
+    width: 800px;
+    right: 700px;
+    top: 50px;
+}
+.main .img-3 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 170px;
+    top: 100px;
+}
+.main .img-4 {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    right: 197px;
+    top: 125px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    Text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+ul {
+    margin-top: 40px;
+    list-style-type: circle;
+}
+h2 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    Text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+ 
+}
+header {
+    background-color: aquamarine;
+    height: 15vh;
+    width: 100%;
+    padding-top: 40px;
+    
+}
+section {
+    display: flex;
+    
+}
+.menu {
+    height: 70vh;
+    width: 25%;
+    background-color: #3F888F;
+    
+}
+.main {
+    height: 70vh;
+    width: 75%;
+    background-color: #30D5C8;
+    
+}
+footer {
+    height: 15vh;
+    background-color: aquamarine;
+    padding-top: 40px;
+}
