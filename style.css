@@ -13,19 +13,12 @@ a {
   color: white;
 }
 a:hover {
-  color: aquamarine;
+  color: black;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 10px 12px rgba(0, 0, 0, 0.1);
 }
 .main {
   position: relative;
-}
-.main .img-1 {
-  position: absolute;
-  height: 320px;
-  width: 320px;
-  left: 800px;
-  top: 250px;
 }
 .main .img-2 {
   position: absolute;
@@ -33,20 +26,6 @@ a:hover {
   width: 800px;
   right: 700px;
   top: 50px;
-}
-.main .img-3 {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  right: 170px;
-  top: 100px;
-}
-.main .img-4 {
-  position: absolute;
-  height: 140px;
-  width: 140px;
-  right: 197px;
-  top: 125px;
 }
 
 h1 {
@@ -60,7 +39,7 @@ h1 {
 }
 ul {
   margin-top: 40px;
-  list-style-type: circle;
+  list-style-type: square;
 }
 h2 {
   color: white;
@@ -72,7 +51,7 @@ h2 {
     0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 header {
-  background-color: #b2ecf0;
+  background-color: #c0c0c0;
   height: 15vh;
   width: 100%;
   padding-top: 40px;
@@ -83,16 +62,18 @@ section {
 .menu {
   height: 70vh;
   width: 25%;
-  background-color: #91d4d9;
+  background-color: #dcdcdc;
+  border: 2px solid black;
 }
 .main {
   height: 70vh;
   width: 75%;
-  background-color: #9fe2bf;
+  background-color: #d3d3d3;
+  border: 2px solid black;
 }
 footer {
   height: 15vh;
-  background-color: aquamarine;
+  background-color: #c0c0c0;
   padding-top: 40px;
 }
 table {
@@ -101,14 +82,14 @@ table {
   border-collapse: collapse;
   width: 800px;
 
-  border: 2px solid rgb(3, 85, 71);
+  border: 2px solid black;
 }
 td:hover {
-  background-color: aquamarine;
+  background-color: white;
 }
 th,
 td {
-  border: 2px solid rgb(3, 85, 71);
+  border: 2px solid black;
 }
 th {
   font-size: 30px;
@@ -169,9 +150,9 @@ input {
   transform: translate(-50%, 0);
   background-image: linear-gradient(
     to right,
-    #84fab0 0%,
-    #8fd3f4 51%,
-    #84fab0 100%
+    #bdc0be 0%,
+    #797d80 51%,
+    #d7dfda 100%
   );
   border: none;
 
@@ -203,16 +184,4 @@ input:focus {
   padding-top: 30px;
   font-size: 30px;
   font-weight: 900;
-}
-.img-1:hover {
-  height: 400px;
-  width: 400px;
-  left: 760px;
-  top: 220px;
-}
-.img-4:hover {
-  height: 200px;
-  width: 200px;
-  right: 160px;
-  top: 100px;
 }
